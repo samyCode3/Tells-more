@@ -1,0 +1,64 @@
+* 
+{
+    margin: 0 auto;
+    padding: 0 ;
+    outline: none;
+}
+
+body 
+{
+    background-color: rgba(0, 0, 0, 0.727);
+}
+
+.main-con 
+{
+    width: 100%;
+}
+.main-con h1 
+{
+    color: white;
+    text-align : center;
+}
+.form 
+{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    background-color: rgba(0, 0, 255, 0.25);
+    margin-top: 4vh;
+    padding: 2rem 2rem
+}
+
+.text-in 
+{
+    padding: 0 5rem;
+}
+.text-in input 
+{
+    height: 2rem;
+    width: 350px;
+    padding: 0 0.5rem;
+    margin-top: 2vh;
+    border: none;
+}
+.btn 
+{
+    width: 100px;
+    height: 4vh;
+    margin-top: 2vh;
+    border: none;
+    border-radius: 2px;
+    background-color: rgba(0, 255, 136, 0.242);
+}
+
+.error 
+{
+    display: flex;
+    align-items: center;
+    background-color: rgba(255, 0, 0, 0.271);
+    text-align: center;
+    color: rgb(220, 198, 198);
+    width: 70%;
+    display: none;
+    border-radius: 3px;
+}
